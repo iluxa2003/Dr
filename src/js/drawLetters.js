@@ -8,8 +8,8 @@ function drawLetters() {
   canvasElem.style.display = 'flex';
   document.body.appendChild(canvasElem);
   let canvas = canvasElem.getContext('2d');
-  canvasX = canvasElem.width;
-  canvasY = canvasElem.height;
+  let canvasX = canvasElem.width;
+  let canvasY = canvasElem.height;
   canvasElem.strokeStyle = 'green';
 
 
