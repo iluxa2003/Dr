@@ -7,7 +7,7 @@ function drawLetters() {
   canvasElem.style.margin = 'auto';
   canvasElem.style.display = 'flex';
   document.body.appendChild(canvasElem);
-  canvas = canvasElem.getContext('2d');
+  let canvas = canvasElem.getContext('2d');
   canvasX = canvasElem.width;
   canvasY = canvasElem.height;
   canvasElem.strokeStyle = 'green';
