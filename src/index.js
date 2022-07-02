@@ -1,5 +1,5 @@
 import { drawLetters } from './js/drawLetters';
-import { fill } from './js/fillColor';
+
 import { randomInteger,getRandomHexColor } from './js/randomColor';
 const body = document.querySelector('body');
 const start = document.querySelector('.start_button');
