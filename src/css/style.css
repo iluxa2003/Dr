@@ -1,0 +1,20 @@
+.start_button {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  border-radius: 7px;
+  color: white;
+  background-color: green;
+  top: 50%;
+  left: 50%;
+}
+.start_button:hover {
+  background-color: aqua;
+  color: blueviolet;
+}
+.round{
+    position: absolute;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
